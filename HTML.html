@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Declara el tipo de documento y la versión de HTML -->
+<html lang="en"> <!-- Establece el idioma principal del documento -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres para el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Establece la vista en dispositivos móviles -->
+    <title>Extended Website</title> <!-- Define el título del documento -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza la hoja de estilos externa -->
+</head>
+<body>
+    <header>
+        <h1> MyS </h1>
+        <p> Nos gusta lo que hacemos y somos los mejores en ello. </p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Acerca de</a></li> <!-- Enlace a la sección "Acerca de" -->
+            <li><a href="#services">Servicios</a></li> <!-- Enlace a la sección "Servicios" -->
+            <li><a href="#proyectos">Proyectos</a></li> <!-- Enlace a la sección "Portafolio" -->
+            <li><a href="#contact">Contacto</a></li> <!-- Enlace a la sección "Contacto" -->
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Acerca de Nosotros</h2>
+            <p> Somos una empresa en la que nos comprometemos y te aseguramos de que vas a salir satisfecho con nuestro trabajo. Empezamos en 2020 durante la pandemia con el objetivo de ayudar a las personas con sus proyectos. No buscamos reconocimiento ni fama, solo ayudar y que las personas se queden satisfechas. Esta empresa esta dirigida por Marcos Reinoso y Sofía Egan.</p>
+  
+        </section>
+        <div class="separator"></div> <!-- Separador entre secciones -->
+        <section id="services">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos una amplia gama de servicios para satisfacer sus necesidades:</p>
+            <ul>
+                <li>Diseño de prendas superiores como camisetas o sudaderas</li> <!-- Lista de servicios -->
+                <li>Diseño de pantalones de todo tipo</li>
+                <li>Diseño de accesorios como gorras</li>
+			
+            </ul>
+			<p> Por ahora no tenemos en oferta diseños de zapatos ni de ropa interior pero nos alegra poder comunicarles que pronto estarán disponibles. </p>
+        </section>
+        <div class="separator"></div> <!-- Otro separador -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-item">
+                <img src="proyecto.jpeg" alt="Proyecto 1"> <!-- Imagen del Proyecto 1 -->
+                <h3>Proyecto 1</h3> <!-- Título del Proyecto 1 -->
+                <p>La camiseta está diseñada con un ajuste moderno. Opté por un cuello redondo clásico para un look atemporal y versátil.Para agregar un toque de estilo, he colocado discretamente nuestro logo en la parte superior izquierda, en un tono beish sutil para mantener la elegancia general de la prenda.  Esta camiseta es increíblemente versátil. Puede usarse como una pieza básica para el día a día o como parte de un conjunto más elegante para una salida nocturna.</p> <!-- Descripción del Proyecto 1 -->
+            </div>
+            <div class="proyectos-item">
+                <img src="proyecto2.jpg" alt="Proyecto 2"> <!-- Imagen del Proyecto 2 -->
+                <h3>Proyecto 2</h3> <!-- Título del Proyecto 2 -->
+                <p>El pantalón negro que he creado es de corte recto y ajuste regular. He procurado mantener un equilibrio entre la comodidad y la elegancia, lo que lo convierte en una pieza imprescindible en cualquier armario.Combina perfectamente con la camiseta negra para un conjunto monocromático o se puede combinar con una camisa para un aspecto más formal.
+</p> <!-- Descripción del Proyecto 2 -->
+            </div>
+            <div class="proyectos-item">
+                <img src="proyectoo3.jpeg" alt="Proyecto 3"> <!-- Imagen del Proyecto 3 -->
+                <h3>Proyecto 3</h3> <!-- Título del Proyecto 3 -->
+                <p> La gorra negra tiene una visera curva. Es un accesorio imprescindible para completar cualquier atuendo informal.He optado por un diseño minimalista con un pequeño logo bordado en la parte delantera, en un tono blanco discreto para mantener la cohesión del conjunto.</p> <!-- Descripción del Proyecto 3 -->
+			 <div class="proyectos-item">
+                <img src="proyectoo4.jpeg" alt="Proyecto 4"> <!-- Imagen del Proyecto 4 -->
+				  <h3>Proyecto 4</h3> <!-- Título del Proyecto 4 -->
+				  <p> La sudadera azul oscura tiene un diseño moderno y cómodo, perfecto para lucir con estilo en cualquier ocasión. Opté por un estilo clásico de sudadera con mangas largas y un ajuste relajado para garantizar la comodidad durante todo el día.En la parte delantera, encima del bolsillo, he agregado una frase en color blanco, impresa con un tipo de letra moderno y legible para añadir un toque de estilo y personalidad. En la parte trasera, una frase en forma de arcoíris también en color blanco, que atraviesa la parte superior de la espalda, agrega un toque de color y positividad al diseño.
+		   </div>
+        </section>
+        <div class="separator"></div> <!-- Otro separador -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>No dude en ponerse en contacto con nosotros mediante nuestro número de teléfono 979 979 797 o mediante nuestro correo, mys@gmail.com:</p>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Nombre:</label><br> <!-- Campo del formulario para el nombre -->
+                <input type="text" id="name" name="name"><br> <!-- Campo de entrada para el nombre -->
+                <label for="email">Correo Electrónico:</label><br> <!-- Campo del formulario para el correo electrónico -->
+                <input type="email" id="email" name="email"><br> <!-- Campo de entrada para el correo electrónico -->
+                <label for="message">Mensaje:</label><br> <!-- Campo del formulario para el mensaje -->
+                <textarea id="message" name="message"></textarea><br> <!-- Área de texto para el mensaje -->
+                <input type="submit" value="Enviar"> <!-- Botón de envío del formulario -->
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Extended Website. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script> <!-- Enlace al archivo de script JavaScript externo -->
+</body>
+</html>

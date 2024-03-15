@@ -1,0 +1,103 @@
+/* Reset de margen y relleno predeterminado */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esto asegura que el ancho y alto se calculen incluyendo el relleno y el borde, pero no el margen */
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente del texto del cuerpo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    background-color: beige; /* Color de fondo */
+    color: black; /* Color del texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: black; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Relleno alrededor del contenido */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: black; /* Color de fondo */
+    color: white ; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 10px; /* Relleno alrededor del contenido */
+}
+
+    nav ul {
+        list-style-type: none; /* Estilo de la lista */
+        padding: 0; /* Elimina el relleno predeterminado de la lista */
+    }
+
+        nav ul li {
+            display: inline; /* Hace que los elementos de la lista se muestren en línea uno al lado del otro */
+            margin: 0 10px; /* Margen entre elementos de la lista */
+        }
+
+            nav ul li a {
+                text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+                color: white; /* Color del texto */
+            }
+
+/* Estilos principales */
+main {
+    padding: 20px; /* Relleno alrededor del contenido */
+}
+
+/* Estilos de la sección */
+section {
+    margin-bottom: 30px; /* Margen inferior */
+}
+
+    section h2 {
+        margin-bottom: 15px; /* Margen inferior */
+    }
+
+/* Estilo del separador */
+.separator {
+    border-top: 1px solid #ccc; /* Borde superior de 1px sólido */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilos del proyecto */
+.proyectos-item {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+    .proyectos-item img {
+        max-width: 100%; /* Ancho máximo de la imagen */
+        height: auto; /* Altura automática para mantener la proporción de aspecto */
+        border-radius: 5px; /* Bordes redondeados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra de la imagen */
+    }
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 10px; /* Relleno alrededor del contenido */
+}
+
+/* Estilos del formulario */
+form {
+    margin-top: 20px; /* Margen superior */
+}
+
+label {
+    display: block; /* Hace que las etiquetas de formulario se muestren como bloques */
+    margin-bottom: 5px; /* Margen inferior */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo del elemento */
+    padding: 8px; /* Relleno dentro del elemento */
+    margin-bottom: 10px; /* Margen inferior */
+    bor
